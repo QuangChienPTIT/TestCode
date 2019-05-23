@@ -1,0 +1,41 @@
+*{
+    margin:0;
+}
+
+
+.step{
+    width: 100%;    
+    text-transform: uppercase;
+    position: relative;
+}
+.step2:before,.step2:after{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: -5px;
+    left: -42px;
+    border: 1px solid #ebebeb;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #fff;
+}
+.step2:after{
+    left: 95%;
+}
+
+.shopping-cart-area .table td{
+    vertical-align: baseline;
+}
+.cart-quantity-changer a{
+    cursor: pointer;
+}
+.cart-quantity-changer input {
+    max-width: 100px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
